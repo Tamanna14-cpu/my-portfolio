@@ -10,7 +10,7 @@ const Navigation = () => {
                     <div>
                         <button class="input"></button>
                     </div>
-                    <i class="fas fa-home"></i>
+                    <i class="fas fa-home nav-icon"></i>
                     <span class="caption">Home</span>
                 </div>
             </Link>
@@ -20,7 +20,7 @@ const Navigation = () => {
                     <div>
                         <button class="input"></button>
                     </div>
-                    <i class="fas fa-user"></i>
+                    <i class="fas fa-user nav-icon"></i>
                     <span class="caption">About</span>
                 </div>
             </Link>
@@ -30,7 +30,7 @@ const Navigation = () => {
                     <div>
                         <button class="input"></button>
                     </div>
-                    <i class="fas fa-tasks"></i>
+                    <i class="fas fa-tasks nav-icon"></i>
                     <span class="caption">Projects</span>
                 </div>
             </Link>
@@ -40,7 +40,7 @@ const Navigation = () => {
                     <div>
                         <button class="input"></button>
                     </div>
-                    <i class="fas fa-feather"></i>
+                    <i class="fas fa-feather nav-icon"></i>
                     <span class="caption">Blogs</span>
                 </div>
             </Link>
@@ -50,7 +50,7 @@ const Navigation = () => {
                     <div>
                         <button class="input"></button>
                     </div>
-                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-envelope nav-icon"></i>
                     <span class="caption">Contact</span>
                 </div>
             </Link>

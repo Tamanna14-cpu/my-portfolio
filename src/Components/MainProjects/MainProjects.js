@@ -22,7 +22,7 @@ const MainProjects = () => {
 
     return (
         <div>
-            <h1 className="my-5 mx-auto pt-5">My Projects</h1>
+            <h1 className="my-5 text-center pt-5 font-monospace fw-bold">My Projects</h1>
 
             <Row xs={1} md={2} className="g-4 my-5 pb-5">
                 {
@@ -30,14 +30,16 @@ const MainProjects = () => {
                         <Card className="card-height service-card" >
                             <Card.Img variant="top" className="course-img" src={project.image} />
                             <Card.Body>
-                                <Card.Text>
+
+                                <Card.Title>
                                     <div className="d-flex justify-content-between text-muted">
                                         <div>{project.title}</div>
                                     </div>
-                                </Card.Text>
-                                <Card.Title>
-
                                 </Card.Title>
+
+                                <Card.Text>
+
+                                </Card.Text>
                             </Card.Body>
                             {/* <Link to={`/services/${id}`} className="see-btn">
                             <button type="button" className="btn btn-outline-secondary ">See More</button>
