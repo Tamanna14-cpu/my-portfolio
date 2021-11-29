@@ -3,6 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import Navigation from '../Navigation/Navigation';
 import './Home.css';
 import myImage from '../../image/bithy.png';
+import MainProjects from '../MainProjects/MainProjects';
 
 
 const Home = () => {
@@ -25,6 +26,8 @@ const Home = () => {
                         </div>
                     </Col>
                 </Row>
+
+                <MainProjects></MainProjects>
             </Col>
 
             <Col xs={2} md={1}>
