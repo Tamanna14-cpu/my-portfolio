@@ -3,35 +3,38 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import Navigation from '../Navigation/Navigation';
 import emailjs from 'emailjs-com';
-import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 
 const Contact = () => {
 
     const sendMail = e => {
 
-        let timerInterval
-        Swal.fire({
-            position: 'center',
-            icon: 'success',
-            title: 'Thanks for your feedback!',
-            timer: 5000,
-            timerProgressBar: true,
-            didOpen: () => {
-                Swal.showLoading()
-            },
-            willClose: () => {
-                clearInterval(timerInterval)
-            }
-        }).then((result) => {
-            /* Read more about handling dismissals below */
-            if (result.dismiss === Swal.DismissReason.timer) {
-                console.log('I was closed by the timer')
-            }
-        })
+        // let timerInterval
+        // Swal.fire({
+        //     position: 'center',
+        //     icon: 'success',
+        //     title: 'Thanks for your feedback!',
+        //     timer: 5000,
+        //     timerProgressBar: true,
+        //     didOpen: () => {
+        //         Swal.showLoading()
+        //     },
+        //     willClose: () => {
+        //         clearInterval(timerInterval)
+        //     }
+        // }).then((result) => {
+        //     /* Read more about handling dismissals below */
+        //     if (result.dismiss === Swal.DismissReason.timer) {
+        //         console.log('I was closed by the timer')
+        //     }
+        // })
 
-        emailjs.sendForm('service_hsxtw9e', 'template_fps3t7v', e.target, 'user_8h4CU0EmhrISgc1Tv5X6q')
+        emailjs.sendForm('service_ki28aik', 'template_gf8z7cj', e.target, 'user_8h4CU0EmhrISgc1Tv5X6q')
             .then(res => {
-                console.log(res);
+                if (res) {
+                    alert('successful');
+                }
+
             })
             .catch(err => console.log(err));
 
@@ -51,24 +54,26 @@ const Contact = () => {
 
                 <Row >
                     <Col md={8} >
+
                         <form>
                             <Row className="mt-5">
                                 <Col xs={12} md={6}>
                                     <TextField required label="Your Name" variant="standard" className="w-100" name="name" />
                                 </Col>
                                 <Col xs={12} md={6}>
-                                    <TextField required type="email" label="Email" variant="standard" className="w-100" name="user_email" />
+                                    <TextField required type="email" label="Email" variant="standard" className="w-100" name="email" />
                                 </Col>
                             </Row>
 
                             <TextField required label="Subject" variant="standard" className="w-100 my-5" name="subject" />
                             <TextField required label="Your Message" variant="standard" className="w-100 mt-4" rows="2" name="message" />
 
-                            <Button variant="outlined" onClick={sendMail} type="submit" className="w-25 mt-4 py-3">
-                                <i class="fas fa-paper-plane me-5"></i>
+                            <Button variant="contained" onClick={sendMail} type="submit" className=" mt-4 py-3">
+                                <i class="fas fa-paper-plane me-3"></i>
                                 Send
                             </Button>
                         </form>
+
                     </Col>
 
                     <Col md={4}>
