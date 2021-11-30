@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const MainProjects = () => {
 
@@ -41,9 +42,9 @@ const MainProjects = () => {
 
                                 </Card.Text>
                             </Card.Body>
-                            {/* <Link to={`/services/${id}`} className="see-btn">
-                            <button type="button" className="btn btn-outline-secondary ">See More</button>
-                        </Link> */}
+                            <Link to={`/projects/${project.id}`}>
+                                <button type="button" className="btn btn-outline-secondary ">Explore More</button>
+                            </Link>
                         </Card>
                     </Col>)
                 }

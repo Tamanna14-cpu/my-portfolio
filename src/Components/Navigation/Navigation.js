@@ -15,18 +15,8 @@ const Navigation = () => {
                 </div>
             </Link>
 
-            <Link to="/about">
-                <div class="box2">
-                    <div>
-                        <button class="input"></button>
-                    </div>
-                    <i class="fas fa-user nav-icon"></i>
-                    <span class="caption">About</span>
-                </div>
-            </Link>
-
             <Link to="/projects">
-                <div class="box3">
+                <div class="box2">
                     <div>
                         <button class="input"></button>
                     </div>
@@ -36,7 +26,7 @@ const Navigation = () => {
             </Link>
 
             <Link to="/blogs">
-                <div class="box4">
+                <div class="box3">
                     <div>
                         <button class="input"></button>
                     </div>
@@ -46,7 +36,7 @@ const Navigation = () => {
             </Link>
 
             <Link to="/contact">
-                <div class="box5">
+                <div class="box4">
                     <div>
                         <button class="input"></button>
                     </div>

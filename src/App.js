@@ -10,7 +10,7 @@ import Contact from './Components/ContactMe/Contact';
 import { Container } from 'react-bootstrap';
 import Footer from './Components/Footer/Footer';
 import Blogs from './Components/Blogs/Blogs';
-import About from './Components/About/About';
+import ProjectsDetails from './Components/ProjectDetails/ProjectsDetails';
 
 
 function App() {
@@ -22,10 +22,9 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="home" element={<Home />} />
             <Route path="projects" element={<Projects />} />
-            {/* <Route path=":teamId" element={<Team />} /> */}
+            <Route path="/projects/:id" element={<ProjectsDetails />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="blog" element={<Blogs />} />
-            <Route path="aboutme" element={<About />} />
+            <Route path="blogs" element={<Blogs />} />
           </Routes>
         </BrowserRouter>
       </Container>

@@ -6,13 +6,19 @@
     margin-right: 0px !important;
 }
 
+.bg-gray{
+	border: 1px solid #CBBBB9;
+	border-radius: 10px;
+	background-color: #CBBBB9;
+}
+
 
 /* make responsive */
 @media only screen and (min-width: 768px) {
-    .left-align, .btn{
-		margin-left: -100px;
+    .left-align, .buton{
+		margin-left: -120px;
 	}
-	.btn{
+	.buton{
 		z-index: 1;
 	}
 }
@@ -21,7 +27,7 @@
 
 
 
-.btn {		
+.buton {		
 	position: relative;	
 	padding: 1.2rem 4rem;
 	padding-right: 3.1rem;
@@ -33,27 +39,27 @@
 	user-select: none;
 }
 
-.btn a{
+.buton a{
 	text-decoration: none;
 	color: black;
 }
 
-.btn:before, .btn:after {
+.buton:before, .buton:after {
 	content: '';
 	position: absolute;	
 	transition: inherit;
 	z-index: -1;
 }
 
-.btn:hover {
+.buton:hover {
 	transition-delay: .5s;
 }
 
-.btn:hover:before {
+.buton:hover:before {
 	transition-delay: 0s;
 }
 
-.btn:hover:after {
+.buton:hover:after {
 	background: #BEA39E;
 	transition-delay: .35s;
 }

@@ -1,4 +1,4 @@
-.box, .box2, .box3, .box4, .box5{
+.box, .box2, .box3, .box4{
     position: absolute;
     margin-left: 5%;
     margin-top: 8%;
@@ -15,24 +15,22 @@
 .box4{
     margin-top: 29%; 
 }
-.box5{
-    margin-top: 36%; 
-}
+
 
 .input {
     padding: 10px;
     width: 80px;
     height: 80px;
     background: none;
-    border: 4px solid #ffd52d;
+    border: 4px solid #BEA39E;
     border-radius: 50px;
     box-sizing: border-box;
     font-size: 26px;
-    color: #ffd52d;
+    color: #BEA39E;
     outline: none;
     transition: .5s;
 }
-.box:hover button, .box2:hover button, .box3:hover button, .box4:hover button, .box5:hover button{
+.box:hover button, .box2:hover button, .box3:hover button, .box4:hover button{
     width: 180px;
     background: #e9e9e9;
     border-radius: 10px;
@@ -43,7 +41,7 @@
     right: 15px;
     transform: translate(-50%, -50%);
     font-size: 26px;
-    color: #ffd52d;
+    color: #000000;
     transition: .2s;
 }
 
@@ -53,12 +51,12 @@
     left: 55px;
     transform: translate(-50%,-50%);
     font-size: 26px;
-    color: #ffd52d;
+    color: #000000;
     transition: .2s; 
     opacity: 0;
 }
 
-.box:hover .caption, .box2:hover .caption, .box3:hover .caption, .box4:hover .caption, .box5:hover .caption{
+.box:hover .caption, .box2:hover .caption, .box3:hover .caption, .box4:hover .caption{
     opacity: 1;
 }
 
@@ -85,10 +83,7 @@
         margin-top: 72%; 
         transform: translate(-50%,-50%);
     }
-    .box5{
-        margin-top: 89%; 
-        transform: translate(-50%,-50%);
-    }
+    
 
     .input {
         width: 50px;
@@ -97,7 +92,7 @@
         font-size: 15px; 
     }
 
-    .box:hover button, .box2:hover button, .box3:hover button, .box4:hover button, .box5:hover button{
+    .box:hover button, .box2:hover button, .box3:hover button, .box4:hover button{
         width: 50px;
     }
 

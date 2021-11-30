@@ -14,10 +14,10 @@ const Footer = () => {
                 </div>
                 <ul className="list-inline">
                     <li className="list-inline-item">Home</li>
-                    <li className="list-inline-item">Services</li>
+                    <li className="list-inline-item">projects</li>
                     <li className="list-inline-item">About</li>
-                    <li className="list-inline-item">Terms</li>
-                    <li className="list-inline-item">Privacy Policy</li>
+                    <li className="list-inline-item">Blogs</li>
+                    <li className="list-inline-item">Contact Me</li>
                 </ul>
                 <p className="copyright">Tamanna Bithy &copy; 2021</p>
             </footer>
