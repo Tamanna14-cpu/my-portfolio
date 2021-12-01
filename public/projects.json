@@ -9,6 +9,7 @@
         "live": "https://react-candle-shop.web.app/",
         "client": "https://github.com/Tamanna14-cpu/candle-shop",
         "server": "https://github.com/Tamanna14-cpu/candle-shop-server",
+        "technology": "React Node.js JavaScript MongoDB sweetalert2 axios firebase-auth swiper emailjs react-reveal bootstrap5",
         "description": "a MERN stack project where Google firebase authentication system has used, MongoDB database have used for database & express.js is used for backend."
     },
     {
@@ -21,6 +22,7 @@
         "live": "https://my-app-bcb15.web.app/",
         "client": "https://github.com/Tamanna14-cpu/trip-advisor",
         "server": "https://github.com/Tamanna14-cpu/trip-advisor-server",
+        "technology": "React Node.js heroku bootstrap firebase MongoDB Stripe rest-api",
         "description": "this site is designed with react.js & mongodb data base has been used as along. firebase authentication system added for authentication."
     },
     {
@@ -32,6 +34,7 @@
         "image3": "https://i.ibb.co/vvKqTJs/health3.png",
         "live": "https://healthcare-website-f0a03.web.app/",
         "client": "https://github.com/Tamanna14-cpu/healthcare-app",
+        "technology": "React Node.js firebase MongoDB expressjs bootstrap5",
         "description": "a single-page application authenticated with firebase where a user not only can log in with google or GitHub but also can register a new account & reset a password."
     },
     {
@@ -43,6 +46,7 @@
         "image3": "https://i.ibb.co/d6MLD4T/courses3.png",
         "live": "https://best-courses14.netlify.app/",
         "client": "https://github.com/Tamanna14-cpu/educational-website",
+        "technology": "React Bootstrap Firebase Api",
         "description": "user can visit the website pages's without reloading for this he can find a dynamic feel! react router with the combination of react-bootstrap will make a better user-experience."
     },
     {

@@ -26,6 +26,11 @@ const ProjectsDetails = () => {
     const { title, description, image1, image2, image3, live, client } = serviceDetails;
 
 
+    let tech = serviceDetails.technology;
+    const techSplit = tech.split(" ");
+    console.log(techSplit);
+
+
     return (
         <Container>
             <Row className="g-4 mt-4 d-flex justify-content-between">
@@ -34,13 +39,13 @@ const ProjectsDetails = () => {
                     <Card className="card-height">
                         <Carousel className="pt-4">
                             <Carousel.Item>
-                                <img className="d-block w-100" src={image1} alt="" />
+                                <img className="d-block w-100 h-100" src={image1} alt="" />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className="d-block w-100" src={image2} alt="" />
+                                <img className="d-block w-100 h-100" src={image2} alt="" />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className="d-block w-100" src={image3} alt="" />
+                                <img className="d-block w-100 h-100" src={image3} alt="" />
                             </Carousel.Item>
 
                         </Carousel>
@@ -48,6 +53,20 @@ const ProjectsDetails = () => {
                             <Card.Title>{title}</Card.Title>
                             <Card.Text>
                                 <div>{description}</div>
+
+                                <span className="fw-bold">Technology: </span>
+                                {
+                                    techSplit.map(singleTech => (
+                                        <span
+                                            style={{
+                                                backgroundColor: '#E5E7EB'
+                                            }}
+                                            className="px-2 py-1 rounded me-2"
+                                        >
+                                            {singleTech}{" "}
+                                        </span>
+                                    ))
+                                }
 
                             </Card.Text>
                             <a href={live} target="blank" className="me-4">Live Webite</a>
