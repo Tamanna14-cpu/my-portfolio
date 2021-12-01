@@ -6,10 +6,10 @@ const Footer = () => {
         <div className="footer-basic mt-5">
             <footer fixed="bottom">
                 <div className="social">
-                    <a href="#"><i className="fab fa-instagram"></i></a>
-                    <a href="#"><i className="fab fa-snapchat-ghost"></i></a>
-                    <a href="#"><i className="fab fa-twitter"></i></a>
-                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/chayabithy.kusum" target="blank"><i className="fab fa-facebook-f"></i></a>
+                    <a href="https://github.com/Tamanna14-cpu" target="blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/tamanna-akter/" target="blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://stackoverflow.com/users/17488789/tamanna-akter" target="blank"><i class="fab fa-stack-overflow"></i></a>
 
                 </div>
                 <ul className="list-inline">

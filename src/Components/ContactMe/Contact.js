@@ -68,7 +68,7 @@ const Contact = () => {
                             <TextField required label="Subject" variant="standard" className="w-100 my-5" name="subject" />
                             <TextField required label="Your Message" variant="standard" className="w-100 mt-4" rows="2" name="message" />
 
-                            <Button variant="contained" onClick={sendMail} type="submit" className=" mt-4 py-3">
+                            <Button variant="contained" onClick={sendMail} type="submit" className=" mt-4 py-2">
                                 <i class="fas fa-paper-plane me-3"></i>
                                 Send
                             </Button>
@@ -77,10 +77,10 @@ const Contact = () => {
                     </Col>
 
                     <Col md={4}>
-                        <div class="mt-5 text-center">
+                        <div class="mt-5 pt-3 text-center">
                             <ul class="list-unstyled mb-0">
                                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                    <p>Sadar, Cumilla-3500, Bangladesh</p>
+                                    <p>Cumilla, Bangladesh</p>
                                 </li>
 
                                 <li><i class="fas fa-phone mt-4 fa-2x"></i>

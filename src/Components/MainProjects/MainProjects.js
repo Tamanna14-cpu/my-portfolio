@@ -33,17 +33,25 @@ const MainProjects = () => {
                             <Card.Body>
 
                                 <Card.Title>
-                                    <div className="d-flex justify-content-between text-muted">
+                                    <div className="d-flex justify-content-between">
                                         <div>{project.title}</div>
                                     </div>
                                 </Card.Title>
 
                                 <Card.Text>
-
+                                    <div>{project.description}</div>
                                 </Card.Text>
+
+                                <a href={project.live} target="blank" className="me-4">Live Webite</a>
+
+                                <a href={project.client} target="blank" className="me-4">Frontend Code</a>
+
+                                {project?.server && <a href={project.server} target="blank" >Backend Code</a>}
+
                             </Card.Body>
-                            <Link to={`/projects/${project.id}`}>
-                                <button type="button" className="btn btn-outline-secondary ">Explore More</button>
+
+                            <Link to={`/projects/${project.id}`} className="ms-3 mb-3">
+                                <button className="btn btn-outline-secondary">Explore More</button>
                             </Link>
                         </Card>
                     </Col>)

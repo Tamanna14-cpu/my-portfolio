@@ -32,7 +32,7 @@ const ProjectsDetails = () => {
 
                 <Col xs={10} md={9}>
                     <Card className="card-height">
-                        <Carousel indicators={false} controls={false} className="pt-4">
+                        <Carousel className="pt-4">
                             <Carousel.Item>
                                 <img className="d-block w-100" src={image1} alt="" />
                             </Carousel.Item>
@@ -50,11 +50,11 @@ const ProjectsDetails = () => {
                                 <div>{description}</div>
 
                             </Card.Text>
-                            <a href={live} target="_blank" className="me-4">Live Site</a>
+                            <a href={live} target="blank" className="me-4">Live Webite</a>
 
-                            <a href={client} target="_blank" className="me-4">cleint Side</a>
+                            <a href={client} target="blank" className="me-4">Frontend Code</a>
 
-                            {serviceDetails?.server && <a href={serviceDetails.server} target="_blank" >Server Side</a>}
+                            {serviceDetails?.server && <a href={serviceDetails.server} target="blank" >Backend Code</a>}
 
                         </Card.Body>
                     </Card>

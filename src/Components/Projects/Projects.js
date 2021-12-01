@@ -24,28 +24,32 @@ const Projects = () => {
 
     return (
         <div>
-            <h1 className="my-5 text-center pt-5 font-monospace fw-bold">My Projects</h1>
+            <h1 className="my-5 text-center pt-5 font-monospace fw-bold">All of My Projects</h1>
 
-            <Row xs={1} md={2} className="g-4 my-5 pb-5">
-                {
-                    myprojects.map(project => <Col xs={10} md={11}>
-                        <Card className="card-height service-card" >
-                            <Card.Img variant="top" className="course-img" src={project.image} />
-                            <Card.Body>
+            <Row className="g-4 my-5 pb-5">
+                <Col xs={10} md={11}>
+                    <Row xs={1} md={2}>
+                        {
+                            myprojects.map(project => <Col>
+                                <Card className="m-3" >
+                                    <Card.Img variant="top" className="course-img" src={project.image} />
+                                    <Card.Body>
 
-                                <Card.Title>
-                                    <div className="d-flex justify-content-between text-muted">
-                                        <div>{project.title}</div>
-                                    </div>
-                                </Card.Title>
+                                        <Card.Title>
+                                            <div className="d-flex justify-content-between text-muted">
+                                                <div>{project.title}</div>
+                                            </div>
+                                        </Card.Title>
 
-                                <Card.Text>
+                                        <Card.Text>
 
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>)
-                }
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>)
+                        }
+                    </Row>
+                </Col>
 
                 <Col xs={2} md={1}>
                     <Navigation></Navigation>

@@ -4,6 +4,7 @@ import Navigation from '../Navigation/Navigation';
 import './Home.css';
 import myImage from '../../image/tamanna.png';
 import MainProjects from '../MainProjects/MainProjects';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -26,11 +27,11 @@ const Home = () => {
                                 🌼love to listening music, read books, travelling & recite poems.
                             </h5>
 
-                            <div className="d-flex justify-content-evenly my-3">
-                                <h5 className="bg-gray p-2">react.js</h5>
-                                <h5 className="bg-gray p-2">node.js</h5>
-                                <h5 className="bg-gray p-2">express.js</h5>
-                                <h5 className="bg-gray p-2">mongodb</h5>
+                            <div className="d-flex justify-content-around my-3">
+                                <h5 className="bg-gray p-2">React</h5>
+                                <h5 className="bg-gray p-2">Node</h5>
+                                <h5 className="bg-gray p-2">Express</h5>
+                                <h5 className="bg-gray p-2">MongoDB</h5>
                             </div>
 
 
@@ -38,7 +39,7 @@ const Home = () => {
 
                         <div class="buton from-center">
                             <a href="https://drive.google.com/uc?export=download&id=1MFPgcTTzlUDc5XVU_2DRGE8SnFM72p_n">
-                                <i class="far fa-file me-2"></i>My Resume</a>
+                                <i class="fas fa-file-download me-2 fs-3"></i>Download Resume</a>
                         </div>
                     </Col>
                 </Row>
@@ -49,7 +50,9 @@ const Home = () => {
             </Col>
 
             <MainProjects></MainProjects>
+
         </Row>
+
     );
 };
 
