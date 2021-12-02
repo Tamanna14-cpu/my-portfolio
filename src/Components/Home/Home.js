@@ -4,7 +4,7 @@ import Navigation from '../Navigation/Navigation';
 import './Home.css';
 import myImage from '../../image/tamanna.png';
 import MainProjects from '../MainProjects/MainProjects';
-import Footer from '../Footer/Footer';
+
 
 
 const Home = () => {
@@ -27,11 +27,11 @@ const Home = () => {
                                 🌼love to listening music, read books, travelling & recite poems.
                             </h5>
 
-                            <div className="d-flex justify-content-around my-3">
-                                <h5 className="bg-gray p-2">React</h5>
-                                <h5 className="bg-gray p-2">Node</h5>
-                                <h5 className="bg-gray p-2">Express</h5>
-                                <h5 className="bg-gray p-2">MongoDB</h5>
+                            <div className="d-flex  my-3">
+                                <h5 className="bg-gray p-2 me-2">React</h5>
+                                <h5 className="bg-gray p-2 me-2">Node.js</h5>
+                                <h5 className="bg-gray p-2 me-2">Express.js</h5>
+                                <h5 className="bg-gray p-2 me-2">MongoDB</h5>
                             </div>
 
 

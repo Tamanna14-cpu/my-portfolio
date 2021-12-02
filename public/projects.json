@@ -2,75 +2,75 @@
     {
         "id": "101",
         "title": "ASKKA-Handmade Candles",
-        "image": "projects/candle/candle.png",
+        "image": "https://i.ibb.co/zrtJzfM/candle.png",
         "image1": "https://i.ibb.co/rkR9kGM/candle2.png",
         "image2": "https://i.ibb.co/RyCGTVv/candle3.png",
         "image3": "https://i.ibb.co/mH4wrTY/candle1.png",
         "live": "https://react-candle-shop.web.app/",
         "client": "https://github.com/Tamanna14-cpu/candle-shop",
         "server": "https://github.com/Tamanna14-cpu/candle-shop-server",
-        "technology": "React Node.js JavaScript MongoDB sweetalert2 axios firebase-auth swiper emailjs react-reveal bootstrap5",
+        "technology": "React, Node.js, Express.js, MongoDB, sweetalert2, axios, firebase-auth,  react-reveal, React-bootstarp",
         "description": "a MERN stack project where Google firebase authentication system has used, MongoDB database have used for database & express.js is used for backend."
     },
     {
         "id": "102",
         "title": "Tripadvisor: Read Reviews, Compare Prices & Book",
-        "image": "projects/trip/trip.png",
+        "image": "https://i.ibb.co/vYvynCf/trip.png",
         "image1": "https://i.ibb.co/PzVQPCw/trip2.png",
         "image2": "https://i.ibb.co/YZm7RDc/trip3.png",
         "image3": "https://i.ibb.co/TYSChbG/trip1.png",
         "live": "https://my-app-bcb15.web.app/",
         "client": "https://github.com/Tamanna14-cpu/trip-advisor",
         "server": "https://github.com/Tamanna14-cpu/trip-advisor-server",
-        "technology": "React Node.js heroku bootstrap firebase MongoDB Stripe rest-api",
+        "technology": "React, Node.js, Express.js, heroku, React-bootstarp, firebase, MongoDB,emailjs, rest-api",
         "description": "this site is designed with react.js & mongodb data base has been used as along. firebase authentication system added for authentication."
     },
     {
         "id": "103",
         "title": "Calm Saga-Your Guide to Mental Health",
-        "image": "projects/health/health.png",
+        "image": "https://i.ibb.co/dmjQNB8/health.png",
         "image1": "https://i.ibb.co/SJxcPzp/health1.png",
         "image2": "https://i.ibb.co/Cmn48DQ/health2.png",
         "image3": "https://i.ibb.co/vvKqTJs/health3.png",
         "live": "https://healthcare-website-f0a03.web.app/",
         "client": "https://github.com/Tamanna14-cpu/healthcare-app",
-        "technology": "React Node.js firebase MongoDB expressjs bootstrap5",
+        "technology": "React, React-hook-form, React-router, AOS, firebase-auth, React-bootstarp, Material ui",
         "description": "a single-page application authenticated with firebase where a user not only can log in with google or GitHub but also can register a new account & reset a password."
     },
     {
         "id": "104",
         "title": "Best Courses",
-        "image": "projects/course/courses.png",
+        "image": "https://i.ibb.co/0nZrWJc/courses.png",
         "image1": "https://i.ibb.co/XzWtRMj/courses1.png",
         "image2": "https://i.ibb.co/bP81vVv/courses2.png",
         "image3": "https://i.ibb.co/d6MLD4T/courses3.png",
         "live": "https://best-courses14.netlify.app/",
         "client": "https://github.com/Tamanna14-cpu/educational-website",
-        "technology": "React Bootstrap Firebase Api",
+        "technology": "React, React-router, Bootstrap5, Netlify",
         "description": "user can visit the website pages's without reloading for this he can find a dynamic feel! react router with the combination of react-bootstrap will make a better user-experience."
     },
     {
         "id": "105",
         "title": "Anime Series",
-        "image": "projects/anime.png",
+        "image": "https://i.ibb.co/ZfL1dKT/anime.png",
         "description": "Hey, are you judging yourself for feeling this way? How about taking a big deep breath, exhale judgment, and inhale acceptance. "
     },
     {
         "id": "106",
         "title": "Fancy Slider",
-        "image": "projects/slider.png",
+        "image": "https://i.ibb.co/NnYTRy5/slider.png",
         "description": "One of the most important parts when setting boundaries at work is to prioritize your values. Your values define you so when you feel like your values are not being respected at your workplace, let others know."
     },
     {
         "id": "107",
         "title": "Temperature Hot",
-        "image": "projects/weather.png",
+        "image": "https://i.ibb.co/HqJZKfz/weather.png",
         "description": "One of the most important parts when setting boundaries at work is to prioritize your values. Your values define you so when you feel like your values are not being respected at your workplace, let others know."
     },
     {
         "id": "108",
         "title": "E-School",
-        "image": "projects/school.png",
+        "image": "https://i.ibb.co/XzqWFyG/school.png",
         "description": "One of the most important parts when setting boundaries at work is to prioritize your values. Your values define you so when you feel like your values are not being respected at your workplace, let others know."
     }
 ]

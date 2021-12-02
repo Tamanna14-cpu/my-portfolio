@@ -15,8 +15,18 @@ const Navigation = () => {
                 </div>
             </Link>
 
-            <Link to="/projects">
+            <Link to="/about">
                 <div class="box2">
+                    <div>
+                        <button class="input"></button>
+                    </div>
+                    <i class="fas fa-user nav-icon"></i>
+                    <span class="caption">Home</span>
+                </div>
+            </Link>
+
+            <Link to="/projects">
+                <div class="box3">
                     <div>
                         <button class="input"></button>
                     </div>
@@ -26,7 +36,7 @@ const Navigation = () => {
             </Link>
 
             <Link to="/blogs">
-                <div class="box3">
+                <div class="box4">
                     <div>
                         <button class="input"></button>
                     </div>
@@ -35,8 +45,20 @@ const Navigation = () => {
                 </div>
             </Link>
 
+
+
+            <a href="https://drive.google.com/file/d/1MFPgcTTzlUDc5XVU_2DRGE8SnFM72p_n/view?usp=sharing" target="blank">
+                <div class="box5">
+                    <div>
+                        <button class="input"></button>
+                    </div>
+                    <i class="far fa-file nav-icon"></i>
+                    <span class="caption">Resume</span>
+                </div>
+            </a>
+
             <Link to="/contact">
-                <div class="box4">
+                <div class="box6">
                     <div>
                         <button class="input"></button>
                     </div>

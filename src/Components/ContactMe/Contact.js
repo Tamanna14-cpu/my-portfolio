@@ -55,7 +55,7 @@ const Contact = () => {
                 <Row >
                     <Col md={8} >
 
-                        <form>
+                        <form onSubmit={sendMail}>
                             <Row className="mt-5">
                                 <Col xs={12} md={6}>
                                     <TextField required label="Your Name" variant="standard" className="w-100" name="name" />
@@ -68,7 +68,7 @@ const Contact = () => {
                             <TextField required label="Subject" variant="standard" className="w-100 my-5" name="subject" />
                             <TextField required label="Your Message" variant="standard" className="w-100 mt-4" rows="2" name="message" />
 
-                            <Button variant="contained" onClick={sendMail} type="submit" className=" mt-4 py-2">
+                            <Button variant="contained" type="submit" className=" mt-4 py-2">
                                 <i class="fas fa-paper-plane me-3"></i>
                                 Send
                             </Button>
