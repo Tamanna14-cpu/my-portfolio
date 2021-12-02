@@ -12,6 +12,7 @@ import Footer from './Components/Footer/Footer';
 import Blogs from './Components/Blogs/Blogs';
 import ProjectsDetails from './Components/ProjectDetails/ProjectsDetails';
 import Notfound from './Components/Notfound/Notfound';
+import About from './Components/About/About';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="/projects/:id" element={<ProjectsDetails />} />
             <Route path="contact" element={<Contact />} />
             <Route path="blogs" element={<Blogs />} />
+            <Route path="about" element={<About />} />
             <Route path="*" element={<Notfound />} />
           </Routes>
         </BrowserRouter>

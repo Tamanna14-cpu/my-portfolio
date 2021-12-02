@@ -21,7 +21,7 @@ const Navigation = () => {
                         <button class="input"></button>
                     </div>
                     <i class="fas fa-user nav-icon"></i>
-                    <span class="caption">Home</span>
+                    <span class="caption">About</span>
                 </div>
             </Link>
 
